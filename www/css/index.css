@@ -1,0 +1,170 @@
+body
+{
+	background-color: black;
+}
+
+#loadingScreen
+{
+	display:none;
+	position: absolute;
+	top:40%;
+	left: 15%;
+}
+
+#gameDisplay
+{
+	display: none;
+}
+
+#endStuff
+{
+	display: none;
+}
+
+.ui-button
+{
+	font-size: 12pt;
+	color: antiquewhite;
+	background-color: gray;
+}
+
+.ui-button:hover
+{
+	background-color: #999999;
+	border-color: #999999;
+	color: #ccccff;
+}
+
+#titleScreen
+{
+	display: none;
+	position: absolute;
+	top:10%;
+	left:20%;
+}
+
+#titleScreen h1
+{
+	font-family: cursive;
+	text-decoration: italic;
+}
+
+.gamePieces
+{
+	border: 1px solid #c2c2a3;
+	background-color: #c2c2a3;
+	width: 100px;
+	height: 100px;
+}
+
+.gamePieces div:not(.valueHolder)
+{
+	position: relative;
+	margin: auto;
+	margin-top: 25%;
+	width: 70%;
+	height: 70%;
+	background-color: #ccccb3;
+}
+
+.valueHolder
+{
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 32pt;
+	font-family: times;
+	color: grey;
+}
+
+#pieceHolder
+{
+	text-align: justify;
+	margin-left: 5px;
+	margin-right: 25px;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+	-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 0px; /* Firefox */
+    column-gap: 0px;
+}
+
+#scoreDisplayHolder
+{
+	position: absolute;
+	left: 30px;
+	top: 525px;
+	font-size: 14pt;
+	font-family: "arial";
+}
+
+#highScoreDisplayHolder
+{
+	position:absolute;
+	left: 30px;
+	top: 475px;
+	font-size: 14pt;
+	font-family: "arial";
+}
+
+#highScoreDisplay
+{
+	text-align:center;
+}
+
+#scoreDisplay
+{
+	text-align: center;
+}
+
+#timeDisplay
+{
+	position: absolute;
+	left: 200px;
+	top: 525px;
+	font-size: 14pt;
+	font-family: arial;
+}
+
+#countdownBackground
+{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	height: 650px;
+	width: 600px;
+	background-color: black;
+	z-index: 3;
+	opacity: .7;
+}
+
+#countdown
+{
+	opacity: 1;
+	position:absolute;
+	top: 20%;
+	left: 30%;
+	font-size: 128pt;
+	color: gold;
+	z-index: 4;
+}
+
+#endStuff
+{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+
+#endStuff div
+{
+	font-size: 32pt;
+	font-family: "Comic Sans MS";
+}
+
+#endStuff #finalScore, #highScore
+{
+	text-align: center;
+	font-size: 24pt;
+}

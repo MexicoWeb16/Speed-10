@@ -1,0 +1,14 @@
+{
+  "name": "speed10",
+  "version": "1.0.1",
+  "description": "A game in which users continuously select two numbers that add up to ten in a limited amount of time to get the highest score possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MexicoWeb16",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
